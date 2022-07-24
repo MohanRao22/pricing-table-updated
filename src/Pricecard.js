@@ -12,6 +12,7 @@ function Pricecard() {
                             <p className="mode">FREE</p>
                             <h2 className="amount">$0<small>/month</small></h2>
                         </div>
+                        {/* Specs of card item*/}
                         <div className="specs-of-offer">
                             <p className="specs-item"><span className="tick-mark">✔</span>Single User</p>
                             <p className="specs-item"><span className="tick-mark">✔</span>5GB Storage</p>
