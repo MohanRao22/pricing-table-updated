@@ -4,7 +4,7 @@
 }
 .card-container{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     padding: 30px;
     flex-wrap: wrap;
 }
@@ -13,7 +13,8 @@
     padding: 25px;
     border-radius: 10px;
     width: 23%;
-    margin-top: 14px;
+    margin: 14px;
+   
 }
 .card-topic{
     text-align: center;
@@ -52,5 +53,11 @@
 @media only screen and (min-width:150px) and (max-width:1000px){
 .card-item{
     width:revert;
+}
+}
+
+@media only screen and (min-width:150px) and (max-width:950px){
+.blue-container{
+    height: 100%;
 }
 }
